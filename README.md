@@ -2,18 +2,25 @@
 
 > I am a Full Stack Web Developer from San Antonio, TX, currently searching for a role on a software development team where my creativity and problem solving skills can be used to create helpful web tools. <a target="_blank" href="https://journeycruz.github.io/WebDevPortfolio/">Check out my portfolio</a> to get a sense of my programming experience. <a target="_blank" href="mailto:journey.cruz@gmail.com">Email me</a> to get in touch. 
 
-## Experience Using the Following Technologies:
+## Experience Using The Following Technologies:
 
-- MongoDB
-- mLab
-- Compression
-- Express
-- Mongoose
-- Morgan
-- lite-server
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- Bootstrap
+- Handlebars
+- Cookies/Local Storage
+- MERN Stack (MongoDB, Express.js, React.js, Node.js)
+- MySQL
+- PHP
+- Passport
+- Bcrypt
+- Git 
+- Heroku
 
 ## Deployment
 
-This website is hosted on GitHub Pages. Click the link below to view the website.
+This website is hosted on GitHub Pages. Click the link below to view the website:
 
 https://journeycruz.github.io/AboutMe/
