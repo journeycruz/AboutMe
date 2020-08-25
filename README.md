@@ -2,7 +2,7 @@
 
 > I am a Full Stack Web Developer from San Antonio, TX, currently searching for a role on a software development team where my creativity and problem solving skills can be used to create helpful web tools. <a target="_blank" href="https://journeycruz.github.io/WebDevPortfolio/">Check out my portfolio</a> to get a sense of my programming experience. <a target="_blank" href="mailto:journey.cruz@gmail.com">Email me</a> to get in touch. 
 
-## Experience Using the Following Technologies
+## Experience Using the Following Technologies:
 
 - MongoDB
 - mLab
