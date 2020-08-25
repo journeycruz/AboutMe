@@ -1,7 +1,7 @@
 body {
-    color: #222222;
-    font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .content-footer,
@@ -10,48 +10,72 @@ body {
   text-align: center;
 }
 
-.masthead {
-  padding: 6em 0;
-  background-image: url('../img/code.jpg');
-  background-size: cover;
+.jumbotron {
+  margin: 15px 30px 0px 30px;
+  border-radius: 10px;
+  background:
+    linear-gradient(rgba(0, 0, 250, 0.25),
+      rgba(125, 250, 250, 0.45)),
+    url(../img/keyboard.jpeg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white !important;
+  height: 340px;
+}
+
+.page-scroll {
+  height: 5000px;
+}
+
+.btn-outline-danger {
+  color: white;
+  border-color: white;
+  border-radius: 0px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.lead {
+  font-family: raleway;
+  font-weight: 100;
+  margin-top: -10px;
 }
 
 .masthead-intro {
-    margin-bottom: 0.1em;
-    font-size: 2em;
-    color: #ffffff;
+  margin-bottom: 0.1em;
+  font-size: 2em;
+  color: #ffffff;
 }
 
 .masthead-heading {
-    margin-top: -0.2em;
-    font-weight: bold;
-    font-size: 6em;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #ffffff;
+  margin-top: -0.2em;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .details {
-    max-width: 38em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 
-.details > p {
-    font-weight: 300;
-    letter-spacing: 0.05em;
+.details>p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
-.details > h2 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 2em 0 1em 0;
+.details>h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
 }
 
-section > h1 {
-    margin-top: 2em;
+section>h1 {
+  margin-top: 2em;
 }
 
 #footer {
@@ -64,7 +88,68 @@ section > h1 {
 #footer a {
   color: #ffffff;
 }
-.social > li {
+
+.social>li {
   display: inline-block;
   margin: 0 5px;
+}
+
+
+.social-links {
+	display: flex;
+}
+
+.social-btn {
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	font-family: raleway;
+	color: #333;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	background: white;
+	margin: 5px;
+	transition: 1s;
+}
+
+.social-btn span {
+	width: 0px;
+	overflow: hidden;
+	transition: 1s;
+	text-align: center;
+}
+
+.social-btn:hover {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.social-btn:hover span {
+	padding: 2px;
+	width: max-content;
+}
+
+#linkedin svg {
+	fill: #0e76a8;
+}
+
+#github {
+	fill: #333;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
 }
