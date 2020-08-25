@@ -21,6 +21,4 @@
 
 ## Deployment
 
-This website is hosted on GitHub Pages. Click the link below to view the website:
-
-https://journeycruz.github.io/AboutMe/
+This website is hosted on GitHub Pages. Click <a target="_blank" href="https://journeycruz.github.io/AboutMe/"> here</a> to view the website.
